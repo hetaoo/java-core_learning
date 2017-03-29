@@ -1,0 +1,9 @@
+/target/
+/hsf.configuration*
+/.settings*
+/logs*
+.classpath
+.project
+.idea
+*.iml
+*.class
