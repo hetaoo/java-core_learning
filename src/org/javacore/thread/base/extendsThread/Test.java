@@ -4,6 +4,7 @@ package org.javacore.thread.base.extendsThread;
  * Created by hetaoo on 2017/3/29.
  */
 public class Test {
+
     public static  void  main (String[] args){
         try {
             MyThread myThread = new MyThread();
