@@ -22,4 +22,6 @@ public class CountOperate extends Thread{
         System.out.println("This.isAlive()=" + this.isAlive());
         System.out.println("run---end");
     }
+
+
 }
