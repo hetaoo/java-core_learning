@@ -3,9 +3,9 @@
 * currentThread()方法
  >  Thread.currentThread().getName()与this.getName()区别
  >
-    this 指的是当前线程
+ >  this 指的是当前线程
  >
-  Thread.currentThread() 指得到的当前线程
+ >  Thread.currentThread() 指得到的当前线程
 
 * isAlive()方法
 > 方法isAlive()的作用是测试线程是否处于活动状态。活动状态就是线程已经启动且尚未终止。线程处于正在运行或准备开始运行的状态，就认为线程是存活的。
