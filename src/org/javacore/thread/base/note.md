@@ -14,6 +14,8 @@
 > sleep()指毫秒数内让当前“正在执行的线程”休眠（暂停执行）。这个“正在执行的线程”是指this.currentThread()返回的线程。
 
 * interrupted() 和 isInterrupted() 区别
-> this.interrupted(): 测试当前线程是否已经中断
+> this.interrupted(): 用来检测“当前线程”的中断状态，且会将中断状态标志清除。
 >
-> this.isInterrupted(): 测试线程是否已经中断
+> this.isInterrupted(): 用来检测“this”的中断状态，且不会改变线程的状态标志。
+
+

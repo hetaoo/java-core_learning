@@ -8,6 +8,6 @@ public class Test {
         Runnable runnable = new MyRunnable();
         Thread thread = new Thread(runnable);
         thread.start();
-        System.out.println("运行结束!");
+        System.out. println("运行结束!");
     }
 }
