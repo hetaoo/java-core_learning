@@ -15,4 +15,5 @@
 
 * interrupted() 和 isInterrupted() 区别
 > this.interrupted(): 测试当前线程是否已经中断
+>
 > this.isInterrupted(): 测试线程是否已经中断
