@@ -8,17 +8,9 @@ import com.sun.corba.se.impl.orbutil.concurrent.Sync;
 public class Mythread extends Thread{
     private int count = 5;
 
-    /**
-     * Allocates a new {@code Thread} object. This constructor has the same
-     * effect as {@linkplain #Thread(ThreadGroup, Runnable, String) Thread}
-     * {@code (null, null, name)}.
-     *
-     * @param name the name of the new thread
-     */
     public Mythread(String name) {
         super(name);
     }
-
 
      public void run(){
         super.run();
