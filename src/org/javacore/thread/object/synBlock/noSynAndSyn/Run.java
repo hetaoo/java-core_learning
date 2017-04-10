@@ -1,4 +1,4 @@
-package org.javacore.thread.object.synBlock;
+package org.javacore.thread.object.synBlock.noSynAndSyn;
 
 /**
  * Created by hetaoo on 2017/4/10.
