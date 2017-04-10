@@ -1,0 +1,1 @@
+synchronizd关键字加到static静态方法上是给Class类上锁，加到非static方法上是给对象上锁。
